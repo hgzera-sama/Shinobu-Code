@@ -1,6 +1,11 @@
 {
+  "version": 2,
+  "framework": "remix",
   "functions": {
     "app/routes/**/*": {
+      "runtime": "edge"
+    },
+    "entry.server.tsx": {
       "runtime": "edge"
     }
   }
